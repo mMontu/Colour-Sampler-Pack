@@ -1,6 +1,11 @@
 " Maintainer: Robert Melton ( robert -at- robertmelton -dot- com)
 " Last Change: 2012 Oct 28th
 
+if exists("g:loaded_color_sample_pack")
+  finish
+endif
+let g:loaded_color_sample_pack = 115
+
 " default schemes
 amenu T&hemes.D&efault.Blue :colo blue<CR>
 amenu T&hemes.D&efault.DarkBlue :colo darkblue<CR>
